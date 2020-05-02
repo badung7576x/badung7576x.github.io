@@ -2,7 +2,7 @@ title: I'm Dung.
 description: > # this means to ignore newlines until "baseurl:"
   Đây là blog cá nhân của tớ chia sẻ về các kiến thức trong quá trình mình tự học.
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
