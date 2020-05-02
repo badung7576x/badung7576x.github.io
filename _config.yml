@@ -1,0 +1,35 @@
+title: I'm Dung.
+description: > # this means to ignore newlines until "baseurl:"
+  Đây là blog cá nhân của tớ chia sẻ về các kiến thức trong quá trình mình tự học.
+permalink: ':title/'
+baseurl: "/badung7576" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Đặng Bá Dũng # add your name
+author-img: logo.jpg # add your photo
+about-author: I'm Dung. This is my knowledge-sharing blog.  # add description
+#social-twitter: # add your Twitter handle
+social-facebook: badung7576# add your Facebook handle
+social-github: badung7576x # add your Github handle
+#social-linkedin: # add your Linkedin handle
+social-email: Dangbadung7576@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
