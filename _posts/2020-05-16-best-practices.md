@@ -164,3 +164,14 @@ print(foo()) # [1]
 print(foo()) # [1,1]  
 print(foo()) # [1,1,1]
 ```
+
+Cách khắc phục ví dụ trên:
+
+```python
+def foo(x = None):
+    if x is None:
+        x = []
+    x.append(1)
+    return x
+```
+
