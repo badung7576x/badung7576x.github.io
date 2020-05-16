@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Viết hàm trong python - \#1 Best Practices 
+title: Viết hàm trong python - Best Practices 
 date: 2020-05-16
 description:  Luyện tập viết hàm trong python ? # Add post description (optional)
 img:  # Add image post (optional)
@@ -149,3 +149,18 @@ print(a, b)     # 10 5 => a đã trỏ tới 1 vùng nhớ mới còn b vẫn tr
 **Note**
 
 > <b>Immutable(Bất biến): </b> int, float, bool, string, bytes, tuple, frozenset => Những kiểu biến này không thay đổi giá trị của vùng nhớ.<br><b>Mutable(Khả biến): </b> list, dict, set, bytearray, objects, functions, ... => Những kiểu biến này có thể thay đổi giá trị vùng nhớ.
+
+**Alert**
+Trong function, việc truyền các biến mutable rất là nguy hiểm. 
+
+Ví dụ sau sẽ giúp bạn hiểu rõ hơn:
+
+```python
+def foo(x = []):
+    x.append(1)
+    return x
+
+print(foo()) # [1]
+print(foo()) # [1,1]
+print(foo()) # [1,1,1]
+```
