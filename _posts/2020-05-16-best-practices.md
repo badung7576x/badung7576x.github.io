@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Viết hàm trong python - #1 Best Practices 
+title: Viết hàm trong python - Best Practices
 date: 2020-05-16
 description:  Luyện tập viết hàm trong python ? # Add post description (optional)
 img:  # Add image post (optional)
