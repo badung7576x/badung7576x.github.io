@@ -3,7 +3,7 @@ layout: post
 title: Viết hàm trong python - Best Practices (Phần 1)
 date: 2020-05-16
 description:  Luyện tập viết hàm trong python ? # Add post description (optional)
-img:  # Add image post (optional)
+img:  best-practices.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Python, Function, Cleancode] # add tag
 ---
